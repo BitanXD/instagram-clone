@@ -1,0 +1,17 @@
+:root{
+    --background: white;
+    --text-primary: black;
+    --button-bg: black;
+    --button-text: white;
+}
+
+[data-theme = 'dark']{
+    --background: black;
+    --text-primary: white;
+    --button-bg: white;
+    --button-text: black;
+}
+
+body{
+    background-color: var(--background);
+}
